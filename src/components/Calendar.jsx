@@ -31,7 +31,13 @@ function Calendar(_props) {
       </div>
       <br></br>
       <div className={"flex-container"} style={{'flexDirection': 'column', 'alignItems': 'center'}}>
-        <textarea id="tx-vacations" rows="3" defaultValue="28.4, 29.4, 30.4, 21.12, 22.12, 23.12, 24.12, 22.6, 23.6, 24.6, 26.6, 31.8, 1.9, 2.9, 3.9, 4.9"></textarea>
+        <textarea id="tx-vacations" rows="3" defaultValue="
+           28.4, 29.4, 30.4,
+
+           4.5, 5.5, 6.5, 7.5, 8.5
+
+           21.12, 22.12, 23.12, 24.12, 28.12, 29.12, 30.12, 31.12,
+        "></textarea>
         <button onClick={() => fetchVacations()}>Apply</button>
         <div>You have entered: {vacationsCount} vacations</div>
       </div>
